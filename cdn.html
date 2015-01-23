@@ -18,7 +18,7 @@
   <head>
     
     <!-- title -->
-    <title>Plus Hosting</title>
+     <title>Plus Hosting</title>
     
     <!-- meta tags -->
     <meta charset="utf-8">
@@ -127,15 +127,15 @@
                 <div class="logoWrapper">
                   <h1 class="logo">
                     <a class="clearfix" href="index.html" title="Plus Hosting">
-                     <img class="text" src="images/logo-1.png" />
+                      <img class="text" src="images/logo-1.png" />
                     </a>
                   </h1><!-- end of logo -->
                 </div><!-- end of logoWrapper -->
-
+				
                 <nav class="mainMenu mainNav" id="mainNav">
                 <ul class="navTabs">
                   <li>
-                    <a href="index.html">Hosting</a>
+                    <a href="index.html" class="active">Hosting</a>
                     <ul class="dropDown sub-menu">
                       <li><a href="web-hosting.html" title="Web shared hosting">Web hosting</a></li> 
                       <li><a href="reseller-hosting.html">Reseller hosting</a></li>
@@ -143,7 +143,7 @@
                       <li><a href="#">Dedicated server</a></li>
 					  <li><a href="ssl.html">SSL certifikati</a></li>
 					  <li><a href="exchange.html">Poslovni Mail</a></li>
-					  <li><a href="cdn.html">CDN</a></li>
+					  <li><a href="cdn.html" class="active" title="Content Delivery Network">CDN</a></li>
 					  <li><a href="streaming.html">Shoutcast Streaming</a></li>
 					  <li><a href="#">Cjenik</a></li>
 					  <li><a href="agreement.html">Pravila korištenja</a></li>
@@ -203,7 +203,7 @@
                 <a href="#" class="generalLink" id="responsiveMainNavToggler"><i class="fa fa-bars"></i></a>
                 <div class="clearfix"></div><!-- end of clearfix -->
                 <div class="responsiveMainNav"></div><!-- end of responsive main nav -->
-              
+                      
               </div><!-- end of row -->
             </div><!-- end of container -->
           </div><!-- end of sticky -->
@@ -217,13 +217,14 @@
             <div class="row">
 
               <div class="col-md-4">
-                <h2 class="pageTitle">Registracija</h2>
+                <h2 class="pageTitle">CDN</h2>
               </div><!-- end of col-md-4 -->
 
               <div class="col-md-8">
                 <ol class="breadcrumb">
-                  <li><a href="#">Naslovnica</a></li>
-                  <li class="active">Registracija</li>
+                  <li><a href="index.html">Naslovna</a></li>
+				  <li><a href="hosting.html">Hosting</a></li>
+                  <li class="active">CDN</li>
                 </ol><!-- end of breadcrumb -->
               </div><!-- end of col-md-8 -->
 
@@ -234,47 +235,176 @@
 
       </section><!-- end of Page Header -->
 
-
-
-      <!-- Register Area -->
-      <section class="registerArea section mainSection scrollAnchor graySection" id="registerArea">
+      
+      <!-- CDN -->
+      <section class="blog section mainSection scrollAnchor lightSection" id="blog">
         <div class="sectionWrapper">
-          <div class="container">
+          <div class="container singlePostPage">
 
             <div class="row">
+
               <div class="col-md-12 sectionTitle">
                 <h2 class="sectionHeader">
-                  Dobrodošli na korisničke stranice Plus Hostinga
+                  Content Delivery Network
                   <span class="generalBorder"></span>
-                </h2><!-- end of sectionHeader -->
-                <p>Provjerite aktivne pakete, domene i ostale aktivne usluge, birajte između mnoštva paketa u ponudi i pronađite najbolje za sebe. Aktivirajte, deaktivirajte i administrirajte sve pakete i usluge u samo nekoliko klikova.Jednostavno i brzo provjerite iznos računa, saznajte podatke za plaćanje i status plaćanja. Vaši računi su svi na jednom mjestu i pogodniji za plaćanje Internet bankarstvom. </p>
+                </h2><!-- end of sectionHeader -->                
+                <p>CDN - Content Delivery Network je mreža servera postavljenih na razne lokacije po svijetu. Serveri čuvaju kopiju Vaših fileova, a svaki od njih, postavljen što bliže Vašim posjetiocima osigurava maksimalnu brzinu dohvata fileova. Za svaki web podesi se mjesto, odnosno CDN Resurs kojem se definira web i CDN URL sa kojeg ce se učitavati Vaš statični sadržaj(npr.slike, javascript, css-ovi, video). Nakon što korisnik pristupi Vašem webu, sa weba će se poslužiti samo dinamički sadržaj, a svi "teški" elementi će se učitati sa CDN-a i to sa čvora najbližeg posjetiocu ubrzavajući učitavanje za nekoliko redova veličine.</p>
               </div><!-- end of section title -->
               
             </div><!-- end of row -->
 
-            <div class="row registerAreaContents">
+            <div class="row">
 
-              <div class="col-md-12 formWrapper">
-                <form class="registerFormArea formArea" method="POST">
+              <div class="col-md-8">
 
-                  <ul class="row">
-                    <li class="col-md-6"><input class="registerFirstName" id="registerFirstName2" name="registerFirstName" value="Ime" onblur="if(this.value=='')this.value='Ime'" onfocus="if(this.value=='Ime')this.value=''" type="text"></li>
-                    <li class="col-md-6"><input class="registerLastName" id="registerLastName2" name="registerLastName" value="Prezime" onblur="if(this.value=='')this.value='Prezime'" onfocus="if(this.value=='Prezime')this.value=''" type="text"></li>
-                    <li class="col-md-6"><input class="registerEmail" id="registerEmail2" name="registerEmail" value="E-mail" onblur="if(this.value=='')this.value='E-mail'" onfocus="if(this.value=='E-mail')this.value=''"type="email"></li>
-                    <li class="col-md-6"><input class="registerEmailConfirm" id="registerEmailConfirm2" name="registerEmailConfirm" value="Ponovi e-mail" onblur="if(this.value=='')this.value='Ponovi e-mail'" onfocus="if(this.value=='Ponovi e-mail')this.value=''"  type="email"></li>
-                    <li class="col-md-6"><input class="registerPassword" id="registerPassword2" name="registerPassword" value="Lozinka" onblur="if(this.value=='')this.value='Lozinka'" onfocus="if(this.value=='Lozinka')this.value=''" type="password"></li>
-                    <li class="col-md-6"><input class="registerPasswordConfirm" id="registerPasswordConfirm2" name="registerPasswordConfirm" value="Ponovi lozinku" onblur="if(this.value=='')this.value='Ponovi lozinku'" onfocus="if(this.value=='Ponovi lozinku')this.value=''" type="password"></li>
-                    <li class="col-md-12"><button class="generalBtn loginBtn" type="submit">Registriraj se</button></li>
-                  </ul><!-- end of row -->
+                <div class="row">
+              
+                  <article class="col-md-12 post postWide singlePost">
+                    <div class="postWrapper">
+                      <div class="postMedia postSlider carousel2">
+                        
+                        <img alt="post sample" src="images/cdn-748x350.png" title="post sample">
+                        
+                        
+                        <img alt="post sample" src="images/cdn-748x350-2.png" title="post sample">
+                        
+                        
+                        <img alt="post sample" src="images/cdn-748x350.png" title="post sample">
+                        
+                      </div>
+                      <div class="postContents">
+                        <a href="#" class="postIcon">
+                        <i class="animated fa fa-newspaper-o"></i>
+                      </a>
+                        <h4 class="postTitle">Plus CDN</h4>
+                        <p class="postDetails">PlusCDN sastoji se od mreže globalnih Anycast DNS servera, hostanih u 14 datacentara i 133 pristupne točke što je daleko više od bilo kojeg drugog CDN-a uz znatno nižu cijenu. PlusCDN već je kompatibilan sa svim poznatijim CMS sustavima, uključujući i Wordpress, Joomlu, Drupal, Magneto i mnoge druge. Vaš CMS radit će munjevito brzo s PlusCDN-om! Pregledajte naš dio sa tutorialima i saznajte kako brzo i jednostavno integrirati Vaš web sa PlusCDN-om. PlusCDN API omogućava Vam da odradjujete razne komande ili zadatke, kao što je kreiranje ili editiranje CDN resursa, pražnjenje CDN cachea, prefetch objekata, kao i statistiku potrošnje.</p>
+                        <br />
+                        <br />
+						<h6>Brzina je važna</h6>
+						<p>Brzina učitavanja stranice direktno utječe na SEO, a isto tako, nitko od posjetioca neće čekati da se spora i slabo optimizirana stranica učita. Po istraživanjima, 75% korisnika zatvoriti će stranicu i odustati ukoliko se ona ne učita unutar barem 5-6 sekundi. CDN znatno smanjuje vrijeme učitavanja jer je optimiziran za statički sadržaj i učitava se sa čvorišta najbližeg posjetitelju. Praktično, web koji se sada učitava po 7 i više sekundi, sada će se učitavati ispod dvije.</p>   
+						<h6>Koji su troškovi?</h6>
+						<p>Nema troškova otvaranja korisničkog računa, nema mjesečne članarine, dovoljno je kroz korisničke stranice nadoplatiti korisničke kredite koje ćete potrošiti na CDN bandwidth, te kada količina korisničkih kredita padne ispod 100 KN ili koliko sami postavite, sustav će Vas obavijestiti da treba nadoplatiti ponovo.  Osim bandwidth-a, nema drugih troškova, možete otvoriti i podesiti nebrojeno CDN Resursa, plaćate samo bandwidth.</p>
+                        <div class="clearfix"></div>
+                      </div>
+                    </div>
+                  </article><!-- end of post -->
 
-                </form><!-- end of registerFormArea -->
-              </div><!-- end of col-md-12 -->
+                  <div class="clearfix"></div>
 
-            </div><!-- end of registerAreaContents -->
+                </div><!-- end of row -->
+              </div><!-- end of col-md-8 -->
+
+              <aside class="col-md-4 sidebar">
+
+                <div class="widget searchWidget">
+                  <div class="widgetBody">
+                    <form method="GET" class="sideSearch">
+                      <ul class="clearfix">
+                        <li><input type="search" value="pretraži" onblur="if(this.value=='')this.value='search here'" onfocus="if(this.value=='search here')this.value=''" name="s" id="sideSearch" class="sideSearch"></li>
+                        <li><button type="submit"><i class="animated fa fa-search"></i></button></li>
+                      </ul>
+                    </form><!-- end of side search -->
+                  </div><!-- end of widget body -->
+                </div><!-- end of widget --><!-- end of search widget -->
+				
+				<div class="widget">
+                <div class="aboutAccordian accordianShortCode" id="accordianShortCode">
+					<div class="aboutBox">
+
+						<h4 class="aboutBoxHeader">Iz Baze znanja</h4><!-- end of about box header -->
+
+						<div class="aboutBoxBody owl-carousel">
+                  
+                  <div class="item">
+                    <div class="accordionRow toggleRow triggerRow">
+                      <a class="accordion-toggle3 WhoAreWetrigger activeLine" href="#">Imam instaliran W3TC plugin</a>
+                      <div class="accordion-content triggerMenu">
+                        <p>Duis dapibus aliquam mi, eget euismod scelerisque ut. Vivamus at elit quis urna adipiscing , Curabitur vitae velit in neque dictum blandit. Duis dapibus aliquam mi, eget euismod scelerisque ut.</p>
+                      </div><!-- end of accordian-content -->
+                    </div><!-- end of accordian row -->
+                    
+                    <div class="accordionRow toggleRow triggerRow">
+                      <a class="accordion-toggle3 WhoAreWetrigger" href="#">Što znači postaviti Expires header?</a>
+                      <div class="accordion-content triggerMenu">
+                        <p>Duis dapibus aliquam mi, eget euismod scelerisque ut. Vivamus at elit quis urna adipiscing , Curabitur vitae velit in neque dictum blandit. Duis dapibus aliquam mi, eget euismod scelerisque ut.</p>
+                      </div><!-- end of accordian-content -->
+                    </div><!-- end of accordian row -->
+                    
+                    <div class="accordionRow toggleRow triggerRow">
+                      <a class="accordion-toggle3 WhoAreWetrigger" href="#">Leverage Browser caching?</a>
+                      <div class="accordion-content triggerMenu">
+                        <p>Duis dapibus aliquam mi, eget euismod scelerisque ut. Vivamus at elit quis urna adipiscing , Curabitur vitae velit in neque dictum blandit. Duis dapibus aliquam mi, eget euismod scelerisque ut.</p>
+                      </div><!-- end of accordian-content -->
+                    </div><!-- end of accordian row -->
+                    
+                    <div class="accordionRow toggleRow triggerRow">
+                      <a class="accordion-toggle3 WhoAreWetrigger" href="#">Kako koristiti CDN u Wordpressu?</a>
+                      <div class="accordion-content triggerMenu">
+                        <p>Duis dapibus aliquam mi, eget euismod scelerisque ut. Vivamus at elit quis urna adipiscing , Curabitur vitae velit in neque dictum blandit. Duis dapibus aliquam mi, eget euismod scelerisque ut.</p>
+                      </div><!-- end of accordian-content -->
+                    </div><!-- end of accordian row -->  
+                  </div><!-- end of item -->
+
+                  <div class="item">
+                    <div class="accordionRow toggleRow triggerRow">
+                      <a class="accordion-toggle3 WhoAreWetrigger activeLine" href="#">Kako koristiti CDN u Wordpressu?</a>
+                      <div class="accordion-content triggerMenu">
+                        <p>Duis dapibus aliquam mi, eget euismod scelerisque ut. Vivamus at elit quis urna adipiscing , Curabitur vitae velit in neque dictum blandit. Duis dapibus aliquam mi, eget euismod scelerisque ut.</p>
+                      </div><!-- end of accordian-content -->
+                    </div><!-- end of accordian row -->
+                    
+                    <div class="accordionRow toggleRow triggerRow">
+                      <a class="accordion-toggle3 WhoAreWetrigger" href="#">Imam instaliran W3TC plugin</a>
+                      <div class="accordion-content triggerMenu">
+                        <p>Duis dapibus aliquam mi, eget euismod scelerisque ut. Vivamus at elit quis urna adipiscing , Curabitur vitae velit in neque dictum blandit. Duis dapibus aliquam mi, eget euismod scelerisque ut.</p>
+                      </div><!-- end of accordian-content -->
+                    </div><!-- end of accordian row -->
+                    
+                    <div class="accordionRow toggleRow triggerRow">
+                      <a class="accordion-toggle3 WhoAreWetrigger" href="#">Što znači postaviti Expires header?</a>
+                      <div class="accordion-content triggerMenu">
+                        <p>Duis dapibus aliquam mi, eget euismod scelerisque ut. Vivamus at elit quis urna adipiscing , Curabitur vitae velit in neque dictum blandit. Duis dapibus aliquam mi, eget euismod scelerisque ut.</p>
+                      </div><!-- end of accordian-content -->
+                    </div><!-- end of accordian row -->
+                    
+                    <div class="accordionRow toggleRow triggerRow">
+                      <a class="accordion-toggle3 WhoAreWetrigger" href="#">Leverage Browser caching?</a>
+                      <div class="accordion-content triggerMenu">
+                        <p>Duis dapibus aliquam mi, eget euismod scelerisque ut. Vivamus at elit quis urna adipiscing , Curabitur vitae velit in neque dictum blandit. Duis dapibus aliquam mi, eget euismod scelerisque ut.</p>
+                      </div><!-- end of accordian-content -->
+                    </div><!-- end of accordian row -->  
+                  </div><!-- end of item -->
+
+                </div><!-- end of about box body -->
+
+                </div><!-- end of about box -->
+              </div><!-- end of about accordian -->
+			</div>
+				
+                <div class="widget categoriesWidget">
+                  <h5 class="widgetHeader">Iz bloga o CDN</h5><!-- end of widget header -->
+                  <div class="widgetBody">
+                    <ul class="list">
+                      <li><a href="#" title="CDN">Što je CDN</a></li>
+                      <li><a href="http://blog.plus.hr/2012/12/28/cloudflare/" title="Cloudflare">Što CloudFlare može napraviti za Vas?</a></li>
+                      <li><a href="#" title="Wordpress i CDN">Wordpress i CDN</a></li>
+                      <li><a href="#" title="Joomla i CDN">Joomla i CDN</a></li>
+                      <li><a href="#" title="Free Cloudflare">Free Cloudflare kroz cPanel</a></li>
+                    
+                    </ul>
+                  </div><!-- end of widget body -->
+                </div><!-- end of widget --><!-- end of categories Widget -->
+
+              </aside><!-- end of sidebar -->
+            </div>
+
             
+
+            <div class="clearfix"></div>
+
           </div><!-- end of container -->
         </div><!-- end of section wrapper -->
-      </section><!-- end Register Area section --> 
+      </section><!-- end blog section -->
       <!-- Footer -->
       <footer class="footer" id="footer">
 
@@ -402,9 +532,10 @@
           </div><!-- end of container -->
         </div><!-- end of bottom footer -->
         
-      </footer><!-- end of footer -->     
+      </footer><!-- end of footer -->
+      
+      
     </div><!-- end of all wrapper -->
-
     
     
     <!-- JavaScript Files ================================================== -->

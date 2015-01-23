@@ -223,7 +223,7 @@
               <div class="col-md-8">
                 <ol class="breadcrumb">
                   <li><a href="#">Naslovnica</a></li>
-                  <li class="active">Registracija</li>
+                  <li class="active">Registracija Affiliate</li>
                 </ol><!-- end of breadcrumb -->
               </div><!-- end of col-md-8 -->
 
@@ -244,10 +244,10 @@
             <div class="row">
               <div class="col-md-12 sectionTitle">
                 <h2 class="sectionHeader">
-                  Dobrodošli na korisničke stranice Plus Hostinga
+                  Plus Hostinga Affiliate Program
                   <span class="generalBorder"></span>
                 </h2><!-- end of sectionHeader -->
-                <p>Provjerite aktivne pakete, domene i ostale aktivne usluge, birajte između mnoštva paketa u ponudi i pronađite najbolje za sebe. Aktivirajte, deaktivirajte i administrirajte sve pakete i usluge u samo nekoliko klikova.Jednostavno i brzo provjerite iznos računa, saznajte podatke za plaćanje i status plaćanja. Vaši računi su svi na jednom mjestu i pogodniji za plaćanje Internet bankarstvom. </p>
+                <p> Ispunite obrazac za registraciju Affiliate programa. Molimo Vas da popunite sva polja. Nakon uspješne registracije, poslati ćemo Vam e-mail sa daljnjim uputama.  </p>
               </div><!-- end of section title -->
               
             </div><!-- end of row -->
@@ -258,12 +258,16 @@
                 <form class="registerFormArea formArea" method="POST">
 
                   <ul class="row">
+					<li class="col-md-12"><input class="registerAffiliateID" id="registerAffiliateID2" name="registerAffiliateID" value="Affiliate ID" onblur="if(this.value=='')this.value='Affiliate ID'" onfocus="if(this.value=='Affiliate ID')this.value=''" type="text"></li>
                     <li class="col-md-6"><input class="registerFirstName" id="registerFirstName2" name="registerFirstName" value="Ime" onblur="if(this.value=='')this.value='Ime'" onfocus="if(this.value=='Ime')this.value=''" type="text"></li>
-                    <li class="col-md-6"><input class="registerLastName" id="registerLastName2" name="registerLastName" value="Prezime" onblur="if(this.value=='')this.value='Prezime'" onfocus="if(this.value=='Prezime')this.value=''" type="text"></li>
-                    <li class="col-md-6"><input class="registerEmail" id="registerEmail2" name="registerEmail" value="E-mail" onblur="if(this.value=='')this.value='E-mail'" onfocus="if(this.value=='E-mail')this.value=''"type="email"></li>
-                    <li class="col-md-6"><input class="registerEmailConfirm" id="registerEmailConfirm2" name="registerEmailConfirm" value="Ponovi e-mail" onblur="if(this.value=='')this.value='Ponovi e-mail'" onfocus="if(this.value=='Ponovi e-mail')this.value=''"  type="email"></li>
-                    <li class="col-md-6"><input class="registerPassword" id="registerPassword2" name="registerPassword" value="Lozinka" onblur="if(this.value=='')this.value='Lozinka'" onfocus="if(this.value=='Lozinka')this.value=''" type="password"></li>
-                    <li class="col-md-6"><input class="registerPasswordConfirm" id="registerPasswordConfirm2" name="registerPasswordConfirm" value="Ponovi lozinku" onblur="if(this.value=='')this.value='Ponovi lozinku'" onfocus="if(this.value=='Ponovi lozinku')this.value=''" type="password"></li>
+                    <li class="col-md-6"><input class="registerLastName" id="registerLastName2" name="registerLastName" value="Prezime" onblur="if(this.value=='')this.value='Prezime'" onfocus="if(this.value=='Prezime')this.value=''"  type="text"></li>
+                    <li class="col-md-12"><input class="registerStreet" id="registerStreet2" name="registerStreet" value="Ulica i kućni broj" onblur="if(this.value=='')this.value='Ulica i kućni broj'" onfocus="if(this.value=='Ulica i kućni broj')this.value=''" type="text"></li>
+                    <li class="col-md-6"><input class="registerPostal" id="registerPostal2" name="registerPostal" value="Poštanski broj" onblur="if(this.value=='')this.value='Poštanski broj'" onfocus="if(this.value=='Poštanski broj')this.value=''" type="text"></li>
+					<li class="col-md-6"><input class="registerCity" id="registerCity2" name="registerCity" value="Mjesto" onblur="if(this.value=='')this.value='Mjesto'" onfocus="if(this.value=='Mjesto')this.value=''" type="text"></li>
+					<li class="col-md-12"><input class="registerState" id="registerState2" name="registerState" value="Država" onblur="if(this.value=='')this.value='Država'" onfocus="if(this.value=='Država')this.value=''" type="text"></li>
+					<li class="col-md-6"><input class="registerMobile" id="registerMobile2" name="registerMobile" value="Broj mobitela" onblur="if(this.value=='')this.value='Broj mobitela'" onfocus="if(this.value=='Broj mobitela')this.value=''" type="text"></li>
+					<li class="col-md-6"><input class="registerPhone" id="registerPhone2" name="registerPhone" value="Broj telefona" onblur="if(this.value=='')this.value='Broj telefona'" onfocus="if(this.value=='Broj telefona')this.value=''" type="text"></li>
+					<li class="col-md-6"><input type="checkbox" name="checkbox" id="checkbox_id" value="value"><label for="checkbox_id">Slažem se sa <a href="affiliate.html">Pravilima Affilate Programa</a></label></li>
                     <li class="col-md-12"><button class="generalBtn loginBtn" type="submit">Registriraj se</button></li>
                   </ul><!-- end of row -->
 

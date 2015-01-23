@@ -153,12 +153,12 @@
                     <a href="domains.html">Domene</a>
                   </li>
                   <li>
-                    <a href="#">Usluge</a>	
+                    <a href="#" class="active">Usluge</a>	
 					<ul class="dropDown sub-menu">
 						<li><a href="#">Magento savjetovanje</a></li>
 						<li><a href="#">Managed hosting</a></li>
 						<li><a href="affiliate.html">Affiliate Program</a></li>
-						<li><a href="web-migration.html">Web migracije</a></li>
+						<li><a href="web-migration.html" class="active">Web migracije</a></li>
 					</ul><!-- end of dropdown -->
                   </li>
                   <li>
@@ -217,13 +217,14 @@
             <div class="row">
 
               <div class="col-md-4">
-                <h2 class="pageTitle">Registracija</h2>
+                <h2 class="pageTitle">Web migracija</h2>
               </div><!-- end of col-md-4 -->
 
               <div class="col-md-8">
                 <ol class="breadcrumb">
-                  <li><a href="#">Naslovnica</a></li>
-                  <li class="active">Registracija</li>
+                  <li><a href="index.html">Naslovnica</a></li>
+				  <li><a href="#">Usluge</a></li>
+                  <li class="active">Web migracija</li>
                 </ol><!-- end of breadcrumb -->
               </div><!-- end of col-md-8 -->
 
@@ -244,10 +245,10 @@
             <div class="row">
               <div class="col-md-12 sectionTitle">
                 <h2 class="sectionHeader">
-                  Dobrodošli na korisničke stranice Plus Hostinga
+                  Upit za web migracijom
                   <span class="generalBorder"></span>
                 </h2><!-- end of sectionHeader -->
-                <p>Provjerite aktivne pakete, domene i ostale aktivne usluge, birajte između mnoštva paketa u ponudi i pronađite najbolje za sebe. Aktivirajte, deaktivirajte i administrirajte sve pakete i usluge u samo nekoliko klikova.Jednostavno i brzo provjerite iznos računa, saznajte podatke za plaćanje i status plaćanja. Vaši računi su svi na jednom mjestu i pogodniji za plaćanje Internet bankarstvom. </p>
+                <p>Naš tim Plus Hosting Web Migracija će odraditi transfer web hosting paketa bez downtime-a u radu mailova ili domene. Web stranice izgledati će jednako kao što su izgledale prije migracije. Popunite formu u nastavku i dajte nam nekoliko osnovnih detalja o onome što želite preseliti. Nakon primitka Vašeg upita kontaktirati će Vas stručnjak za migracije i dogovoriti sa Vama tehničke detalje transfera.</p>
               </div><!-- end of section title -->
               
             </div><!-- end of row -->
@@ -258,13 +259,13 @@
                 <form class="registerFormArea formArea" method="POST">
 
                   <ul class="row">
-                    <li class="col-md-6"><input class="registerFirstName" id="registerFirstName2" name="registerFirstName" value="Ime" onblur="if(this.value=='')this.value='Ime'" onfocus="if(this.value=='Ime')this.value=''" type="text"></li>
-                    <li class="col-md-6"><input class="registerLastName" id="registerLastName2" name="registerLastName" value="Prezime" onblur="if(this.value=='')this.value='Prezime'" onfocus="if(this.value=='Prezime')this.value=''" type="text"></li>
-                    <li class="col-md-6"><input class="registerEmail" id="registerEmail2" name="registerEmail" value="E-mail" onblur="if(this.value=='')this.value='E-mail'" onfocus="if(this.value=='E-mail')this.value=''"type="email"></li>
-                    <li class="col-md-6"><input class="registerEmailConfirm" id="registerEmailConfirm2" name="registerEmailConfirm" value="Ponovi e-mail" onblur="if(this.value=='')this.value='Ponovi e-mail'" onfocus="if(this.value=='Ponovi e-mail')this.value=''"  type="email"></li>
-                    <li class="col-md-6"><input class="registerPassword" id="registerPassword2" name="registerPassword" value="Lozinka" onblur="if(this.value=='')this.value='Lozinka'" onfocus="if(this.value=='Lozinka')this.value=''" type="password"></li>
-                    <li class="col-md-6"><input class="registerPasswordConfirm" id="registerPasswordConfirm2" name="registerPasswordConfirm" value="Ponovi lozinku" onblur="if(this.value=='')this.value='Ponovi lozinku'" onfocus="if(this.value=='Ponovi lozinku')this.value=''" type="password"></li>
-                    <li class="col-md-12"><button class="generalBtn loginBtn" type="submit">Registriraj se</button></li>
+                    <li class="col-md-6"><input class="migrationFirstName" id="migrationFirstName2" name="migrationFirstName" value="Ime" onblur="if(this.value=='')this.value='Ime'" onfocus="if(this.value=='Ime')this.value=''" type="text"></li>
+                    <li class="col-md-6"><input class="migrationLastName" id="migrationLastName2" name="migrationLastName" value="Prezime" onblur="if(this.value=='')this.value='Prezime'" onfocus="if(this.value=='Prezime')this.value=''" type="text"></li>
+                    <li class="col-md-6"><input class="migrationEmail" id="migrationEmail2" name="migrationEmail" value="E-mail" onblur="if(this.value=='')this.value='E-mail'" onfocus="if(this.value=='E-mail')this.value=''"type="email"></li>
+					<li class="col-md-6"><input class="backupFolder" id="backupFolder2" name="backupFolder" value="Naziv mape" onblur="if(this.value=='')this.value='Naziv mape'" onfocus="if(this.value=='Naziv mape')this.value=''" type="text"></li>
+                    <li class="col-md-6"><input class="URLwebsite" id="URLwebsite2" name="URLwebsite" value="URL adresa domene - (http://www.vasastranica.hr)" onblur="if(this.value=='')this.value='URL adresa domene(http://www.vasastranica.hr)'" onfocus="if(this.value=='URL adresa domene(http://www.vasastranica.hr)')this.value=''"  type="text"></li>
+                    <li class="col-md-6"><input class="migrationDetails" id="migrationDetails2" name="migrationDetails" value="Detalji o migraciji" onblur="if(this.value=='')this.value='Detalji o migraciji'" onfocus="if(this.value=='Detalji o migraciji')this.value=''" type="text"></li>
+                    <li class="col-md-12"><button class="generalBtn loginBtn" type="submit">Zatraži web migraciju</button></li>
                   </ul><!-- end of row -->
 
                 </form><!-- end of registerFormArea -->

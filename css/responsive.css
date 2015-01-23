@@ -115,6 +115,9 @@
   .pricing .col-md-4.col-sm-6 {
     width: 33.3%;
   }
+  .pricing .col-md-15.col-sm-6 {
+    width: 20%;
+  }
   /* domain search */
   .domainSearchForm .formSearchUl > li:first-child {
     width: 902px;

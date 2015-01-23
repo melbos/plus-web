@@ -217,13 +217,13 @@
             <div class="row">
 
               <div class="col-md-4">
-                <h2 class="pageTitle">Registracija</h2>
+                <h2 class="pageTitle">Backup zahtjev</h2>
               </div><!-- end of col-md-4 -->
 
               <div class="col-md-8">
                 <ol class="breadcrumb">
                   <li><a href="#">Naslovnica</a></li>
-                  <li class="active">Registracija</li>
+                  <li class="active">Backup Zahtjev</li>
                 </ol><!-- end of breadcrumb -->
               </div><!-- end of col-md-8 -->
 
@@ -244,10 +244,10 @@
             <div class="row">
               <div class="col-md-12 sectionTitle">
                 <h2 class="sectionHeader">
-                  Dobrodošli na korisničke stranice Plus Hostinga
+                  Zahtjev za izradom backupa
                   <span class="generalBorder"></span>
                 </h2><!-- end of sectionHeader -->
-                <p>Provjerite aktivne pakete, domene i ostale aktivne usluge, birajte između mnoštva paketa u ponudi i pronađite najbolje za sebe. Aktivirajte, deaktivirajte i administrirajte sve pakete i usluge u samo nekoliko klikova.Jednostavno i brzo provjerite iznos računa, saznajte podatke za plaćanje i status plaćanja. Vaši računi su svi na jednom mjestu i pogodniji za plaćanje Internet bankarstvom. </p>
+                <p>Plus Hosting backup serveri aktiviraju se svakodnevno iza ponoći. Full backupovi se generalno postavljaju na raspored izrade vikendom kako bi se izbjegnuo mogući utjecaj na korisnike. Sistem administratori imaju ovlasti postaviti željeni raspored backupa. Samo vlasnik hosting paketa može zatražiti izradu backup arhive ili restore hosting paketa.</p>
               </div><!-- end of section title -->
               
             </div><!-- end of row -->
@@ -261,10 +261,10 @@
                     <li class="col-md-6"><input class="registerFirstName" id="registerFirstName2" name="registerFirstName" value="Ime" onblur="if(this.value=='')this.value='Ime'" onfocus="if(this.value=='Ime')this.value=''" type="text"></li>
                     <li class="col-md-6"><input class="registerLastName" id="registerLastName2" name="registerLastName" value="Prezime" onblur="if(this.value=='')this.value='Prezime'" onfocus="if(this.value=='Prezime')this.value=''" type="text"></li>
                     <li class="col-md-6"><input class="registerEmail" id="registerEmail2" name="registerEmail" value="E-mail" onblur="if(this.value=='')this.value='E-mail'" onfocus="if(this.value=='E-mail')this.value=''"type="email"></li>
-                    <li class="col-md-6"><input class="registerEmailConfirm" id="registerEmailConfirm2" name="registerEmailConfirm" value="Ponovi e-mail" onblur="if(this.value=='')this.value='Ponovi e-mail'" onfocus="if(this.value=='Ponovi e-mail')this.value=''"  type="email"></li>
-                    <li class="col-md-6"><input class="registerPassword" id="registerPassword2" name="registerPassword" value="Lozinka" onblur="if(this.value=='')this.value='Lozinka'" onfocus="if(this.value=='Lozinka')this.value=''" type="password"></li>
-                    <li class="col-md-6"><input class="registerPasswordConfirm" id="registerPasswordConfirm2" name="registerPasswordConfirm" value="Ponovi lozinku" onblur="if(this.value=='')this.value='Ponovi lozinku'" onfocus="if(this.value=='Ponovi lozinku')this.value=''" type="password"></li>
-                    <li class="col-md-12"><button class="generalBtn loginBtn" type="submit">Registriraj se</button></li>
+                    <li class="col-md-6"><input class="hostingDomainName" id="hostingDomainName2" name="hostingDomainName" value="Naziv glavne domene hosting paketa" onblur="if(this.value=='')this.value='Naziv glavne domene hosting paketa'" onfocus="if(this.value=='Naziv glavne domene hosting paketa')this.value=''"  type="text"></li>
+                    <li class="col-md-6"><input class="backupFolder" id="backupFolder2" name="backupFolder" value="Naziv mape" onblur="if(this.value=='')this.value='Naziv mape'" onfocus="if(this.value=='Naziv mape')this.value=''" type="text"></li>
+                    <li class="col-md-6"><input class="backupDatabase" id="backupDatabase2" name="backupDatabase" value="Naziv baze podataka" onblur="if(this.value=='')this.value='Naziv baze podataka'" onfocus="if(this.value=='Naziv baze podataka')this.value=''" type="text"></li>
+                    <li class="col-md-12"><button class="generalBtn loginBtn" type="submit">Zatraži backup</button></li>
                   </ul><!-- end of row -->
 
                 </form><!-- end of registerFormArea -->

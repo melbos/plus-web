@@ -85,7 +85,7 @@
           <div class="container">
             <div class="row">
 
-              <ul class="topSocial socialNav col-md-6 col-sm-12">
+             <ul class="topSocial socialNav col-md-6 col-sm-12">
                 <li class="facebook"><a href="#"><i class="animated fa fa-facebook"></i></a></li>
                 <li class="twitter"><a href="#"><i class="animated fa fa-twitter"></i></a></li>
                 <li class="rss"><a href="#"><i class="animated fa fa-rss"></i></a></li>
@@ -99,7 +99,7 @@
                   </form><!-- end of lang form -->
                 </li><!-- end of lang -->
               </ul><!-- end of top social -->
-
+			  
               <div class="topContact col-md-6 col-sm-12">
                 <ul>
                   <li class="tele">
@@ -127,7 +127,7 @@
                 <div class="logoWrapper">
                   <h1 class="logo">
                     <a class="clearfix" href="index.html" title="Plus Hosting">
-                     <img class="text" src="images/logo-1.png" />
+                      <img class="text" src="images/logo-1.png" />
                     </a>
                   </h1><!-- end of logo -->
                 </div><!-- end of logoWrapper -->
@@ -137,7 +137,7 @@
                   <li>
                     <a href="index.html">Hosting</a>
                     <ul class="dropDown sub-menu">
-                      <li><a href="web-hosting.html" title="Web shared hosting">Web hosting</a></li> 
+                      <li><a href="web-hosting.html" title="Web shared hosting" class="active">Web hosting</a></li> 
                       <li><a href="reseller-hosting.html">Reseller hosting</a></li>
                       <li><a href="vps.html">VPS hosting</a></li>
                       <li><a href="#">Dedicated server</a></li>
@@ -162,7 +162,7 @@
 					</ul><!-- end of dropdown -->
                   </li>
                   <li>
-                    <a href="about.html">O nama</a>
+                    <a href="about.html" class="active">O nama</a>
 					<ul class="dropDown sub-menu">
 						<li><a href="team.html">Tim</a></li>
 						<li><a href="#">Infrastuktura</a></li>
@@ -184,7 +184,7 @@
                           <li><h5><i class="fa fa-user"></i></h5></li>
                           <li>
                             <form class="loginForm" method="POST">
-                              <input class="loginName" id="loginName" name="loginName" placeholder="Korisničko ime" type="text">
+                              <input class="loginName" id="loginName" name="loginName" placeholder="Korisnicko ime" type="text">
                               <input class="loginPassword" id="loginPassword" name="loginPassword" placeholder="Lozinka" type="password">
                                 <input type="checkbox" name="remember" id="remember">
                                 <label for="remember">Zapamti me</label>
@@ -208,73 +208,248 @@
             </div><!-- end of container -->
           </div><!-- end of sticky -->
         </header><!-- end of header -->
-
-
-        <!-- Page Info -->
-        <div class="pageInfo">
-          <div class="cover"></div>
-          <div class="container">
-            <div class="row">
-
-              <div class="col-md-4">
-                <h2 class="pageTitle">Registracija</h2>
-              </div><!-- end of col-md-4 -->
-
-              <div class="col-md-8">
-                <ol class="breadcrumb">
-                  <li><a href="#">Naslovnica</a></li>
-                  <li class="active">Registracija</li>
-                </ol><!-- end of breadcrumb -->
-              </div><!-- end of col-md-8 -->
-
-            </div><!-- end of row -->
-          </div><!-- end of container -->
-        </div><!-- end of page info -->
-
-
       </section><!-- end of Page Header -->
 
-
-
-      <!-- Register Area -->
-      <section class="registerArea section mainSection scrollAnchor graySection" id="registerArea">
+      <!-- Testmonials -->
+      <section class="testmonials section mainSection scrollAnchor darkSection" id="testmonials4">
         <div class="sectionWrapper">
           <div class="container">
 
             <div class="row">
+
               <div class="col-md-12 sectionTitle">
                 <h2 class="sectionHeader">
-                  Dobrodošli na korisničke stranice Plus Hostinga
+                  Što naši klijenti kažu o nama
                   <span class="generalBorder"></span>
                 </h2><!-- end of sectionHeader -->
-                <p>Provjerite aktivne pakete, domene i ostale aktivne usluge, birajte između mnoštva paketa u ponudi i pronađite najbolje za sebe. Aktivirajte, deaktivirajte i administrirajte sve pakete i usluge u samo nekoliko klikova.Jednostavno i brzo provjerite iznos računa, saznajte podatke za plaćanje i status plaćanja. Vaši računi su svi na jednom mjestu i pogodniji za plaćanje Internet bankarstvom. </p>
+                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer lorem quam, adipiscing condimentum tristique vel, eleifend sed turpis. Pellentesque cursus arcu id magna euismod in elementum purus molestie.</p>
               </div><!-- end of section title -->
               
             </div><!-- end of row -->
 
-            <div class="row registerAreaContents">
+            <div class="row">
 
-              <div class="col-md-12 formWrapper">
-                <form class="registerFormArea formArea" method="POST">
+              <div class="testmonialsCarousel owl-carousel testmonialsGallary">
 
-                  <ul class="row">
-                    <li class="col-md-6"><input class="registerFirstName" id="registerFirstName2" name="registerFirstName" value="Ime" onblur="if(this.value=='')this.value='Ime'" onfocus="if(this.value=='Ime')this.value=''" type="text"></li>
-                    <li class="col-md-6"><input class="registerLastName" id="registerLastName2" name="registerLastName" value="Prezime" onblur="if(this.value=='')this.value='Prezime'" onfocus="if(this.value=='Prezime')this.value=''" type="text"></li>
-                    <li class="col-md-6"><input class="registerEmail" id="registerEmail2" name="registerEmail" value="E-mail" onblur="if(this.value=='')this.value='E-mail'" onfocus="if(this.value=='E-mail')this.value=''"type="email"></li>
-                    <li class="col-md-6"><input class="registerEmailConfirm" id="registerEmailConfirm2" name="registerEmailConfirm" value="Ponovi e-mail" onblur="if(this.value=='')this.value='Ponovi e-mail'" onfocus="if(this.value=='Ponovi e-mail')this.value=''"  type="email"></li>
-                    <li class="col-md-6"><input class="registerPassword" id="registerPassword2" name="registerPassword" value="Lozinka" onblur="if(this.value=='')this.value='Lozinka'" onfocus="if(this.value=='Lozinka')this.value=''" type="password"></li>
-                    <li class="col-md-6"><input class="registerPasswordConfirm" id="registerPasswordConfirm2" name="registerPasswordConfirm" value="Ponovi lozinku" onblur="if(this.value=='')this.value='Ponovi lozinku'" onfocus="if(this.value=='Ponovi lozinku')this.value=''" type="password"></li>
-                    <li class="col-md-12"><button class="generalBtn loginBtn" type="submit">Registriraj se</button></li>
-                  </ul><!-- end of row -->
+                <div class="col-md-4 col-sm-6 item testmonial singleTestmonialWrapper">
+                  <div class="singleTestmonial">
+                    <div class="testmonialsTopContents clearfix">
+                      <img alt="testmonials tip" class="tip" src="images/tip.png">
+                      <img alt="testmonials user" class="testmonialthumb" src="images/test-1.jpg">
+                      <blockquote><p>Svako malo me @PlusHostingHr ugodno iznenadi svojom korisničkom podrškom. Tko nije kod njih ... griješi. Hvala ekipa!</p></blockquote>
+                    </div><!-- end of testmonials top contents -->
+                    <div class="testmonialsBottomContents">
+                      <p><a class="userName" href="https://twitter.com/crnaovcazg" title="user name">@crnaovcazg</a></p>
+                      <p><a class="userWebsite" href="#" title="use website">https://twitter.com/crnaovcazg</a></p>
+                    </div><!-- end of testmonials bottom contents -->
+                  </div><!-- end of single testmonial -->
+                  
+                </div><!-- end of single testmonials wrapper -->
 
-                </form><!-- end of registerFormArea -->
-              </div><!-- end of col-md-12 -->
+                <div class="col-md-4 col-sm-6 item testmonial singleTestmonialWrapper">
+                  <div class="singleTestmonial">
+                    <div class="testmonialsTopContents clearfix">
+                      <img alt="testmonials tip" class="tip" src="images/tip.png">
+                      <img alt="testmonials user" class="testmonialthumb" src="images/test-2.jpg">
+                      <blockquote><p>WebCamp Zagreb web ima novi dom! Puno hvala @PlusHostingHr ! http://2013.webcampzg.org</p></blockquote>
+                    </div><!-- end of testmonials top contents -->
+                    <div class="testmonialsBottomContents">
+                      <p><a class="userName" href="https://twitter.com/webcampzg" title="user name">@webcampzg</a></p>
+                      <p><a class="userWebsite" href="http://2014.webcampzg.org/" title="use website">WebCamp Zagreb</a></p>
+                    </div><!-- end of testmonials bottom contents -->
+                  </div><!-- end of single testmonial -->
+                  
+                </div><!-- end of single testmonials wrapper -->
+                
+                <div class="col-md-4 col-sm-6 item testmonial singleTestmonialWrapper">
+                  <div class="singleTestmonial">
+                    <div class="testmonialsTopContents clearfix">
+                      <img alt="testmonials tip" class="tip" src="images/tip.png">
+                      <img alt="testmonials user" class="testmonialthumb" src="images/test-3.jpg">
+                      <blockquote><p>Mislim da neću pretjerati ako kažem da @PlusHostingHr ima najbolju korisničku službu u Hrvatskoj!</p></blockquote>
+                    </div><!-- end of testmonials top contents -->
+                    <div class="testmonialsBottomContents">
+                      <p><a class="userName" href="https://twitter.com/ilijabrajkovic" title="user name">Ilija Brajkovic</a></p>
+                      <p><a class="userWebsite" href="http://akcija.com.hr/" title="use website">akcija.com.hr </a></p>
+                    </div><!-- end of testmonials bottom contents -->
+                  </div><!-- end of single testmonial -->
+                  
+                </div><!-- end of single testmonials wrapper -->
+                
+                <div class="col-md-4 col-sm-6 item testmonial singleTestmonialWrapper">
+                  <div class="singleTestmonial">
+                    <div class="testmonialsTopContents clearfix">
+                      <img alt="testmonials tip" class="tip" src="images/tip.png">
+                      <img alt="testmonials user" class="testmonialthumb" src="images/test-1.jpg">
+                      <blockquote><p>Svako malo me @PlusHostingHr ugodno iznenadi svojom korisničkom podrškom. Tko nije kod njih ... griješi. Hvala ekipa!</p></blockquote>
+                    </div><!-- end of testmonials top contents -->
+                    <div class="testmonialsBottomContents">
+                      <p><a class="userName" href="https://twitter.com/crnaovcazg" title="user name">@crnaovcazg</a></p>
+                      <p><a class="userWebsite" href="#" title="use website">https://twitter.com/crnaovcazg</a></p>
+                    </div><!-- end of testmonials bottom contents -->
+                  </div><!-- end of single testmonial -->
+                  
+                </div><!-- end of single testmonials wrapper -->
+                
+                <div class="col-md-4 col-sm-6 item testmonial singleTestmonialWrapper">
+                  <div class="singleTestmonial">
+                    <div class="testmonialsTopContents clearfix">
+                      <img alt="testmonials tip" class="tip" src="images/tip.png">
+                      <img alt="testmonials user" class="testmonialthumb" src="images/test-2.jpg">
+                      <blockquote><p>WebCamp Zagreb web ima novi dom! Puno hvala @PlusHostingHr ! http://2013.webcampzg.org</p></blockquote>
+                    </div><!-- end of testmonials top contents -->
+                    <div class="testmonialsBottomContents">
+                      <p><a class="userName" href="https://twitter.com/webcampzg" title="user name">@webcampzg</a></p>
+                      <p><a class="userWebsite" href="http://2014.webcampzg.org/" title="use website">WebCamp Zagreb</a></p>
+                    </div><!-- end of testmonials bottom contents -->
+                  </div><!-- end of single testmonial -->
+                  
+                </div><!-- end of single testmonials wrapper -->
+                
+                <div class="col-md-4 col-sm-6 item testmonial singleTestmonialWrapper">
+                  <div class="singleTestmonial">
+                    <div class="testmonialsTopContents clearfix">
+                      <img alt="testmonials tip" class="tip" src="images/tip.png">
+                      <img alt="testmonials user" class="testmonialthumb" src="images/test-3.jpg">
+                      <blockquote><p>Mislim da neću pretjerati ako kažem da @PlusHostingHr ima najbolju korisničku službu u Hrvatskoj!</p></blockquote>
+                    </div><!-- end of testmonials top contents -->
+                    <div class="testmonialsBottomContents">
+                      <p><a class="userName" href="https://twitter.com/ilijabrajkovic" title="user name">Ilija Brajkovic</a></p>
+                      <p><a class="userWebsite" href="http://akcija.com.hr/" title="use website">akcija.com.hr </a></p>
+                    </div><!-- end of testmonials bottom contents -->
+                  </div><!-- end of single testmonial -->
+                  
+                </div><!-- end of single testmonials wrapper -->
+                
+                <div class="col-md-4 col-sm-6 item testmonial singleTestmonialWrapper">
+                  <div class="singleTestmonial">
+                    <div class="testmonialsTopContents clearfix">
+                      <img alt="testmonials tip" class="tip" src="images/tip.png">
+                      <img alt="testmonials user" class="testmonialthumb" src="images/test-1.jpg">
+                      <blockquote><p>Svako malo me @PlusHostingHr ugodno iznenadi svojom korisničkom podrškom. Tko nije kod njih ... griješi. Hvala ekipa!</p></blockquote>
+                    </div><!-- end of testmonials top contents -->
+                    <div class="testmonialsBottomContents">
+                      <p><a class="userName" href="https://twitter.com/crnaovcazg" title="user name">@crnaovcazg</a></p>
+                      <p><a class="userWebsite" href="#" title="use website">https://twitter.com/crnaovcazg</a></p>
+                    </div><!-- end of testmonials bottom contents -->
+                  </div><!-- end of single testmonial -->
+                  
+                </div><!-- end of single testmonials wrapper -->
+                
+                <div class="col-md-4 col-sm-6 item testmonial singleTestmonialWrapper">
+                  <div class="singleTestmonial">
+                    <div class="testmonialsTopContents clearfix">
+                      <img alt="testmonials tip" class="tip" src="images/tip.png">
+                      <img alt="testmonials user" class="testmonialthumb" src="images/test-2.jpg">
+                      <blockquote><p>WebCamp Zagreb web ima novi dom! Puno hvala @PlusHostingHr ! http://2013.webcampzg.org</p></blockquote>
+                    </div><!-- end of testmonials top contents -->
+                    <div class="testmonialsBottomContents">
+                      <p><a class="userName" href="https://twitter.com/webcampzg" title="user name">@webcampzg</a></p>
+                      <p><a class="userWebsite" href="http://2014.webcampzg.org/" title="use website">WebCamp Zagreb</a></p>
+                    </div><!-- end of testmonials bottom contents -->
+                  </div><!-- end of single testmonial -->
+                  
+                </div><!-- end of single testmonials wrapper -->
+                
+                <div class="col-md-4 col-sm-6 item testmonial singleTestmonialWrapper">
+                  <div class="singleTestmonial">
+                    <div class="testmonialsTopContents clearfix">
+                      <img alt="testmonials tip" class="tip" src="images/tip.png">
+                      <img alt="testmonials user" class="testmonialthumb" src="images/test-3.jpg">
+                      <blockquote><p>Mislim da neću pretjerati ako kažem da @PlusHostingHr ima najbolju korisničku službu u Hrvatskoj!</p></blockquote>
+                    </div><!-- end of testmonials top contents -->
+                    <div class="testmonialsBottomContents">
+                      <p><a class="userName" href="https://twitter.com/ilijabrajkovic" title="user name">Ilija Brajkovic</a></p>
+                      <p><a class="userWebsite" href="http://akcija.com.hr/" title="use website">akcija.com.hr </a></p>
+                    </div><!-- end of testmonials bottom contents -->
+                  </div><!-- end of single testmonial -->
+                  
+                </div><!-- end of single testmonials wrapper -->
+                
+              </div><!-- end of testmonials gallary -->
 
-            </div><!-- end of registerAreaContents -->
-            
+            </div><!-- end of row -->
+
           </div><!-- end of container -->
         </div><!-- end of section wrapper -->
-      </section><!-- end Register Area section --> 
+      </section><!-- end testmonials section -->
+
+      <!-- Clients -->
+      <section class="clients section mainSection scrollAnchor lightSection" id="clients">
+        <div class="sectionWrapper">
+          <div class="container">
+
+            <div class="row">
+
+              <div class="col-md-12 sectionTitle">
+                <h2 class="sectionHeader">
+                  Budite i Vi na listi naših zadovoljnih klijenata !
+                </h2><!-- end of sectionHeader -->
+              </div><!-- end of section title -->
+              
+            </div><!-- end of row -->
+
+            <div class="row">
+
+              <div class="clientsCarousel owl-carousel clientsGallary">
+
+                <div class="col-md-2 col-sm-4 item client singleClientsWrapper">
+                  <a class="singleClient" href="#" title="client">
+                    <img alt="client 1" src="images/clients/1.png" title="client">
+                  </a><!-- end of single client -->
+                </div><!-- end of single client wrapper -->
+
+                <div class="col-md-2 col-sm-4 item client singleClientsWrapper">
+                  <a class="singleClient" href="#" title="client">
+                    <img alt="client 2" src="images/clients/2.png" title="client">
+                  </a><!-- end of single client -->
+                </div><!-- end of single client wrapper -->
+
+                <div class="col-md-2 col-sm-4 item client singleClientsWrapper">
+                  <a class="singleClient" href="#" title="client">
+                    <img alt="client 3" src="images/clients/3.png" title="client">
+                  </a><!-- end of single client -->
+                </div><!-- end of single client wrapper -->
+
+                <div class="col-md-2 col-sm-4 item client singleClientsWrapper">
+                  <a class="singleClient" href="#" title="client">
+                    <img alt="client 4" src="images/clients/4.png" title="client">
+                  </a><!-- end of single client -->
+                </div><!-- end of single client wrapper -->
+
+                <div class="col-md-2 col-sm-4 item client singleClientsWrapper">
+                  <a class="singleClient" href="#" title="client">
+                    <img alt="client 5" src="images/clients/5.png" title="client">
+                  </a><!-- end of single client -->
+                </div><!-- end of single client wrapper -->
+
+                <div class="col-md-2 col-sm-4 item client singleClientsWrapper">
+                  <a class="singleClient" href="#" title="client">
+                    <img alt="client 6" src="images/clients/6.png" title="client">
+                  </a><!-- end of single client -->
+                </div><!-- end of single client wrapper -->
+
+                <div class="col-md-2 col-sm-4 item client singleClientsWrapper">
+                  <a class="singleClient" href="#" title="client">
+                    <img alt="client 7" src="images/clients/7.png" title="client">
+                  </a><!-- end of single client -->
+                </div><!-- end of single client wrapper -->
+
+                <div class="col-md-2 col-sm-4 item client singleClientsWrapper">
+                  <a class="singleClient" href="#" title="client">
+                    <img alt="client 8" src="images/clients/8.png" title="client">
+                  </a><!-- end of single client -->
+                </div><!-- end of single client wrapper -->
+
+                <!-- end of single client wrapper -->
+
+              </div><!-- end of clients gallary -->
+
+            </div><!-- end of row -->
+
+          </div>
+        </div>
+      </section><!-- end clients section -->
       <!-- Footer -->
       <footer class="footer" id="footer">
 
@@ -402,7 +577,7 @@
           </div><!-- end of container -->
         </div><!-- end of bottom footer -->
         
-      </footer><!-- end of footer -->     
+      </footer><!-- end of footer -->    
     </div><!-- end of all wrapper -->
 
     
